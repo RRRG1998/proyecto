@@ -20,8 +20,8 @@
                 <div class="col-sm-12 collapse navbar-collapse" id="menu">
                     <ul class="col-sm-12 navbar-nav justify-content-around">
                         <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sobre mi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">opcion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">opcion</a></li>
 
                         <li class="nav-item dropdown">
 
@@ -29,10 +29,10 @@
                             <ul class="dropdown-menu bg-dark " aria-labelledby="menuproducto">
                                 <li><a class="dropdown-item text-bg-dark" href="{{ route('estado.create') }}">Crear Estado</a></li>
                                 <li><a class="dropdown-item text-bg-dark" href="{{ route('estado.index') }}">Listar estados</a></li>
-                                <li><a class="dropdown-item text-bg-dark" href="#">Categoria 3</a></li>
+                                <li><a class="dropdown-item text-bg-dark" href="#">opcion 3</a></li>
                                 
                                 <li><hr class="dropdown-divider bg-light"></li>
-                                <li><a class="dropdown-item text-bg-dark" href="#">Politica de Privacidad</a></li>
+                                <li><a class="dropdown-item text-bg-dark" href="#">opcion 4</a></li>
                             </ul>
                         </li>
                     </ul>
